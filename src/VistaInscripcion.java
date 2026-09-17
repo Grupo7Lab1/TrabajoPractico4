@@ -1,12 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JInternalFrame.java to edit this template
- */
 
-/**
- *
- * @author Nestor Marchizone
- */
 public class VistaInscripcion extends javax.swing.JInternalFrame {
 
     private java.util.HashSet<Alumno> alumnos;

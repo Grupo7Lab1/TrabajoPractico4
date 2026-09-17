@@ -112,6 +112,12 @@ public class VistaAlumnos extends javax.swing.JInternalFrame {
     private void jBGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBGuardarActionPerformed
         try {
     int legajo = Integer.parseInt(jTlegajo.getText().trim());
+            if (legajo <= 0) {
+                javax.swing.JOptionPane.showMessageDialog(this,
+                        "El legajo debe ser mayor que 0.", "Aviso",
+                        javax.swing.JOptionPane.WARNING_MESSAGE);
+                return;
+            }
     String apellido = jTapellido.getText().trim();
     String nombre = jTNombre.getText().trim();
 
